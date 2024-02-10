@@ -1,0 +1,37 @@
+version: 2
+updates:
+- package-ecosystem: npm
+  directory: "/client"
+  schedule:
+    interval: weekly
+    time: "12:00"
+    timezone: America/Chicago
+  open-pull-requests-limit: 20
+- package-ecosystem: gradle
+  directory: "/server"
+  schedule:
+    interval: weekly
+    time: "12:00"
+    timezone: America/Chicago
+  open-pull-requests-limit: 20
+- package-ecosystem: docker
+  directory: "/server"
+  schedule:
+    interval: weekly
+    time: "12:00"
+    timezone: America/Chicago
+  open-pull-requests-limit: 20
+- package-ecosystem: docker
+  directory: "/client"
+  schedule:
+    interval: weekly
+    time: "12:00"
+    timezone: America/Chicago
+  open-pull-requests-limit: 20
+- package-ecosystem: github-actions
+  directory: "/"
+  schedule:
+    interval: weekly
+    time: "12:00"
+    timezone: America/Chicago
+  open-pull-requests-limit: 20
