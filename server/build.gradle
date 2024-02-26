@@ -33,7 +33,7 @@ mainClassName = 'umm3601.Server'
 dependencies {
 
   // Javalin, a simple web framework for Java
-  implementation 'io.javalin:javalin:5.6.3'
+  implementation 'io.javalin:javalin:6.1.2'
 
   // Jackson databaing library for JSON
   implementation 'com.fasterxml.jackson.core:jackson-databind:2.16.1'
